@@ -12,11 +12,7 @@
     "dist/*",
     "gatsby-node.js"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alexjorgef/gatsby-source-mixcloud.git",
-    "directory": "package"
-  },
+  "repository": "https://github.com/alexjorgef/gatsby-source-mixcloud.git",
   "keywords": [
     "mixcloud",
     "gatsby",
