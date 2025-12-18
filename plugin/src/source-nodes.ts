@@ -1,5 +1,5 @@
 import type { GatsbyNode } from "gatsby"
-import Mixjar from "mixjar"
+import Mixjar from "@alexjorgef/mixjar"
 // import { promisify } from "util"
 import { ERROR_CODES, NODE_TYPE_BASE, NODE_SUBTYPE_USER } from "./constants"
 import type { MixcloudNodePluginOptions } from "./types/plugin-options"

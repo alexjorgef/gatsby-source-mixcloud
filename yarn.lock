@@ -9,17 +9,26 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@alexjorgef/gatsby-source-mixcloud@workspace:plugin"
   dependencies:
+    "@alexjorgef/mixjar": ^0.1.2
     "@parcel/packager-ts": ^2.9.3
     "@parcel/transformer-typescript-types": ^2.9.3
     del-cli: ^5.0.1
     gatsby: ^5.12.1
     gatsby-plugin-utils: ^4.12.0
-    mixjar: ^0.1.2
     parcel: ^2.9.3
   peerDependencies:
     gatsby: ^5.0.0-next.0
   languageName: unknown
   linkType: soft
+
+"@alexjorgef/mixjar@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "@alexjorgef/mixjar@npm:0.1.2"
+  dependencies:
+    unirest: ^0.6.0
+  checksum: 3b30c33d4c9c3a71ad5e17ad8218569d2925e8588c8f1d94938902c29d5de0f8862a1f94d1e6a494d6a23011e3a295006de7af52e5aa9c8a02f6fc2ee970c792
+  languageName: node
+  linkType: hard
 
 "@ampproject/remapping@npm:^2.2.0":
   version: 2.3.0
@@ -13778,15 +13787,6 @@ __metadata:
     for-in: ^1.0.2
     is-extendable: ^1.0.1
   checksum: 820d5a51fcb7479f2926b97f2c3bb223546bc915e6b3a3eb5d906dda871bba569863595424a76682f2b15718252954644f3891437cb7e3f220949bed54b1750d
-  languageName: node
-  linkType: hard
-
-"mixjar@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "mixjar@npm:0.1.2"
-  dependencies:
-    unirest: ^0.6.0
-  checksum: 92c868333baa06eeb4a13638c507427c6dff6d0979d0197823fde7bfbc401f005d4a598051a46df62aa3b12440093afd8dd75e06371502beef74a2419a0144f9
   languageName: node
   linkType: hard
 

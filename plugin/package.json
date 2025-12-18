@@ -28,7 +28,7 @@
   "author": "Alexandre Ferreira <contact@alexjorgef.com>",
   "license": "MIT",
   "dependencies": {
-    "mixjar": "^0.1.2"
+    "@alexjorgef/mixjar": "^0.1.2"
   },
   "bugs": {
     "url": "https://github.com/alexjorgef/gatsby-source-mixcloud/issues"
