@@ -35,6 +35,10 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name: Install Dependencies
         run: yarn --immutable
+      - name: Configure Yarn npm auth
+        run: yarn config set npmAuthToken "${NODE_AUTH_TOKEN}"
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Publish Package
         run: yarn package:publish
         env:
