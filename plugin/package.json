@@ -1,6 +1,6 @@
 {
   "name": "@alexjorgef/gatsby-source-mixcloud",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Gatsby source plugin for Mixcloud",
   "main": "dist/gatsby-node.js",
   "source": "src/gatsby-node.ts",
