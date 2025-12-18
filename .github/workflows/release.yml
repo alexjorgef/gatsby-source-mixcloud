@@ -36,6 +36,6 @@ jobs:
       - name: Install Dependencies
         run: yarn --immutable
       - name: Publish Package
-        run: yarn npm publish --access public
+        run: yarn package:publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
