@@ -1,6 +1,6 @@
 {
   "name": "@alexjorgef/gatsby-source-mixcloud",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Gatsby source plugin for Mixcloud",
   "main": "dist/gatsby-node.js",
   "source": "src/gatsby-node.ts",
@@ -24,7 +24,7 @@
   "author": "Alexandre Ferreira <contact@alexjorgef.com>",
   "license": "MIT",
   "dependencies": {
-    "@alexjorgef/mixjar": "^0.1.2"
+    "@alexjorgef/mixjar": "^0.1.3"
   },
   "bugs": {
     "url": "https://github.com/alexjorgef/gatsby-source-mixcloud/issues"
